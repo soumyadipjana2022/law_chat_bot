@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title style="color: turquoise;">AI Law Advisor </title>
+    <link rel="stylesheet" href="{% static 'stylle.css' %}">
+</head>
+<body>
+    <div class="container">
+         <h1 style="color: turquoise;">AI Law Advisor </h1>
+         <title style="color: turquoise;">AI Law Advisor </title>
+        
+        <textarea id="question" placeholder="Ask your legal question here..."></textarea>
+        <button id="submit">Get Answer</button>
+        <textarea id="answer" placeholder="Your answer will appear here..." readonly></textarea>
+
+    
+        <footer class="footer">
+            © 2024 AI Law Advisor | All Rights Reserved
+        </footer>
+    </div>
+
+
+    <script src="{% static 'main.js' %}"></script>
+</body>
+</html>
